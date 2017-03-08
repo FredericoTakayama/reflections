@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing a diff between two versions of a file helped me to check what line had a typo,
+so I could fast find my way to resolve the issue.
+
+To get to this solution fast, I need to have a version files of the same code.
+In addiction, lines that were changed should be short to help to identify the issue,
+plus should be a few code changeds between on old version and the newer, so we have
+less code to view where is the issue althought It's good to save a version with logical blocks of code.
+So we could recheck our old versions with some logical content.
+That's means It's a good idea if we could have a version control of our files.
+----------------------------
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+you could know when was made the changes, and how could you act to resolved some issue.
+----------------------------
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The pros is that you can save logical blocks which can be easier to understand during a revision.
+The cons is that you might forget to save or choose a wrong moment to generate a commit. You put a "human prone error" variable.
+----------------------------
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some version control systems, like Git, allow saving multiple files in one commit because this group of files probably are related each others, so It's good to save a state of all theses files in some moment.
+----------------------------
+How can you use the commands git log and git diff to view the history of files?
+just type then in a git repository.
+PS.: git diff is obsolte. In this case, use:
+         git difftool <sha_older> <sha_newer>
+PS.2: git repository is a collection of files plus theirs histories of version control.
+----------------------------
+How might using version control make you more confident to make changes that could break something?
+Version control makes me more confident to make changes that could break something because I just can revert to an old state and compare were created the bug, or in worse cases, just revert all my code to an older version of It.
+----------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try to develop new apps within It.
+----------------------------
